@@ -5,4 +5,4 @@ def get_user(user_id):
     return cursor.fetchone()
 
 def run_command(cmd):
-    subprocess.run(cmd, shell=True)
+    subprocess.run(cmd, shell=False)
